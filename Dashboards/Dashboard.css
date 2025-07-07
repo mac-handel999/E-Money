@@ -1,0 +1,265 @@
+   body {
+   font-family: 'Courier New', Courier, monospace, 'Times New Roman', Times, serif,sans-serif;
+   font-weight: 5px;
+  background-color: #E1EBF1;
+
+   
+ }
+ 
+ h2,h4 {
+   color: #000;
+   text-shadow: 2px 3px 5px green;
+  
+ }
+ 
+ .img-logo {
+  margin: 5px;
+  padding: 5;
+  width: 50px;
+  height: 50px;
+  border: 2px solid green;
+ border-radius: 50px;
+ box-shadow: 2px 3px 2px 3px #000;
+  
+}
+
+.splash-text {
+  font-weight: bolder;
+  text-align: left;
+}
+
+.logo-text {
+  font-size: 0.8rem;
+  text-shadow: 2px 3px 5px green;
+  color: black;
+}
+
+.greet {
+  margin-top: 100px;
+
+  padding: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+  font-weight: bold;
+  border: 2px solid green;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-shadow: 2px 3px 5px #000;
+  color: green;
+}
+
+.bank-name {
+  margin: 5px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  text-shadow: 2px 3px 5px #000;
+  color: #000;
+}
+ 
+ .moneyscreen {
+   
+   border: solid green 3px;
+   border-bottom: solid green 4px;
+   margin-top:  40px;
+   margin-bottom: 0px;
+   padding: 10px;
+   border-radius: 10px;
+   background: linear-gradient( to left,
+  #2E7D66,   /* Green */
+  
+  #0A1F3D,   /* Dark Blue */
+  #E1EBF1    /* Light Blue */
+);
+   color: #fff;
+   text-shadow: 2px 3px 2px green;
+   box-shadow: 1px 2px 3px 4px #000;
+   font-size: 1rem;
+   font-weight: bolder;
+  
+     
+ }
+ 
+ .amount {
+   color: green;
+   font-size: 2rem;
+   font-weight: bolder;
+   text-shadow: 2px 3px 5px #fff;
+ }
+ 
+ .logo {
+margin: 0px;
+  padding: 10px;
+  background-color: #E1EBF1;
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+ }
+ 
+ 
+.notify-btn,.icon-show {
+     border-radius: 100px;
+     width: 39px;
+     height: 35px;
+     
+    
+    
+  }
+  
+  .show-icon,.notify-icon {
+    border-radius: 50px;
+  }
+  
+  .icon-show {
+    
+    
+  }
+  
+  button {
+    margin: 10px;
+    padding-top: 10px;
+    padding: 5px;
+    
+    border: solid green 2px;
+    border-radius: 159px;
+    box-shadow: 1px 2px 3px 2px #000;
+    text-align: center;
+    color: #000;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: green;
+    border: solid #fff 2px;
+    color: #fff;
+  }
+  
+  
+  img {
+    border-radius: 95px;
+    width: 25px;
+    height: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: green;
+  }
+  
+  .amount-in {
+    color: green;
+  }
+  
+  .amount-out {
+    color: red;
+  }
+  
+  .history {
+    
+   background-color: #fff;
+border-bottom-left-radius : 20px;
+border-bottom-right-radius : 20px;  margin: 10px;
+   margin-top: 0px;
+   padding: 10px;
+   border: 2px solid green;
+   box-shadow: 1px 2px 3px 4px #000;
+   text-shadow: 2px 3px 5px #000;
+  }
+  
+  .btns {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  #trans-hist {
+    color: black;
+     box-shadow: 1px 2px 3px 4px #000;
+     text-shadow: 2px 3px 5px #000;
+  }
+  
+  .trans-add {
+     background: red;
+     box-shadow: 1px 2px 3px 4px #000;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 20px;
+     text-shadow: 2px 3px 5px #000;
+  }
+  
+  .transfer-btn {
+    box-shadow: 1px 2px 3px 4px #000;
+    color: black;
+    margin: 7px;
+    padding: 8px;
+    text-shadow: 2px 3px 5px #000;
+  }
+  
+  .add-btn {
+    box-shadow: 1px 2px 3px 4px #000;
+    color: black;
+    margin: 5px;
+    margin-left: 9px;
+    padding: 5px;
+    text-shadow: 2px 3px 5px #000;
+  }
+  
+  .utility {
+    box-shadow: 1px 2px 3px 4px #000;
+    background: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 100px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  
+  .utility-btn {
+    color: black;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .nav-footer {
+  /* --- KEY CHANGES FOR FIXED POSITIONING --- */
+  position: fixed; /* Fixes it relative to the viewport */
+  bottom: 0;       /* Positions it at the very bottom */
+  left: 0;         /* Aligns it to the left edge */
+  width: 100%;     /* Makes it span the full width of the viewport */
+  box-sizing: border-box; /* Include padding/border in the width calculation */
+  /* --- END KEY CHANGES --- */
+
+  margin: 0; /* Remove existing margin to avoid extra space */
+  padding: 3px;
+  background-color: #E1EBF1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid green;
+  }
+    
+  
+  

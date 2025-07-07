@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,7 +8,7 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1">
 
-  <title>E-Money/ Sign-up Page</title>
+  <title>E-Money/LogIn Page</title>
 
   <!-- HTML -->
 
@@ -22,9 +22,9 @@
   
   
   <center>
-  <h2 class="logo">E-Money.io</h2>
+  <h2 class="logo">E Money.io</h2>
   
-  <h4> 'Welcome There'</h2><br/>
+  <h4> 'Welcome Back There'</h2><br/>
    
   </center>
   
@@ -32,13 +32,8 @@
      
   <form action="get">
     <center>
-    <h3> Sign Up</h3><br/>
+    <h3>LogIn</h3><br/>
     </center>
-    
-     <br/>
-    <label for=" full-name"> Full Name:</label><br/>
-    <input type="text" id=" full-name" placeholder="Enter your  Full name"><br/>
-    
     
     <br/>
     <label for="user-name">User Name:</label><br/>
@@ -57,23 +52,20 @@
     <input type="password" id="confirm-password"
       placeholder=" Confirm Your Password"><br />
       
-       <br/>
-    <label for="contact">  Contact:</label><br/>
-    <input type=" tel" id="contact" placeholder="Enter your  Contact"><br/>
-     <br/>
-    <label for=" date-of-birth">  Date Of Birth:</label><br/>
-    <input type="date" id="date-of-birth" placeholder="Enter your   Date Of Birth"><br/>
+      <p><a href="#" class="forgot-pass">Forgoten Password?..</a></p>
+      
+      <br/>
+      
+      <br/>
      
-      <br/>
-      
-      <br/>
-      <button class=" signup-btn">
-        <a href="Dashboard.html">
-         Sign Up
-        </a>
+      <button class="login-btn">
+       <a href=" /Dashboards/Dashboard.html">
+        LogIn
+       </a>
       </button>
-      
-      <center> 
+    
+    
+    <center> 
       
        <hr class="hr-text">
       
@@ -85,8 +77,10 @@
     
   </form>
   
-  <div class="buttons">
-    <center>
+ <div class="buttons">
+   
+   <div id="btn">
+   <center>
     <button class="google-btn">
       <img src="/icons img/Google.png" width="50px"  height="40px"> 
        
@@ -99,24 +93,20 @@
     
     <button class="github-btn">
       <img src="/icons img/GitHub.png" width="50px"  height="40px"> <br/>
-      
-      
-      
-       
-    </button><br>
-    
+      </button><br>
+  
     
       <br/>
-       <p id="signup">Already have An Account?...
+       <p id="signup">Don't have An Account?...
        <br/>
        <button class="signup">
-         <a href=" Login page.html">
-            Log In Here
+         <a href="/auth-pages/Signup page.html">
+           Sign Up Here
          </a>
        </button>
        </p> 
       
-    </center>
+   </center>
     
   </div>
   </div>
